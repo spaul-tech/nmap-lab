@@ -7,6 +7,7 @@ A comprehensive collection of Nmap commands, practical scans, screenshots, and n
 |-------|-------------|
 | 📡 [Host Discovery](01-Host-Discovery/) | Discover live hosts on a network |
 | 🚪 [Port Scanning](02-Port-Scanning/) | Scan TCP & UDP ports |
+| 🔍 [Version Detection](03-Service-Enumeration/) | Identify running services |
 ---
 
 ## 🛠 Tools
