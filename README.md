@@ -9,6 +9,7 @@ A comprehensive collection of Nmap commands, practical scans, screenshots, and n
 | 🚪 [Port Scanning](02-Port-Scanning/) | Scan TCP & UDP ports |
 | 🔍 [Version Detection](03-Service-Enumeration/) | Identify running services |
 | 🥷 [Stealth Scans](04-Stealth-Scans/) | SYN, FIN, NULL & Xmas scans |
+| ⚡ [Timing Templates](05-Timing-Templates/) | Speed up or slow down scans |
 ---
 
 ## 🛠 Tools
