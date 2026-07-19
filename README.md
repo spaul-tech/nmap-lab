@@ -10,6 +10,8 @@ A comprehensive collection of Nmap commands, practical scans, screenshots, and n
 | 🔍 [Version Detection](03-Service-Enumeration/) | Identify running services |
 | 🥷 [Stealth Scans](04-Stealth-Scans/) | SYN, FIN, NULL & Xmas scans |
 | ⚡ [Timing Templates](05-Timing-Templates/) | Speed up or slow down scans |
+| 🧩 [NSE Scripts](06-NSE-Scripts/) | Automate enumeration with scripts |
+
 ---
 
 ## 🛠 Tools
