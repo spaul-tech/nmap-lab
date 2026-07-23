@@ -46,7 +46,11 @@ nmap -p 22 --script "ssh-*" 192.168.1.110
 **To manage its massive library of automation scripts, Nmap relies on a centralized database called script.db. This index file tells Nmap exactly which scripts to run without wasting time reading every file manually.Below is a breakdown of the most common NSE scripts used by security professionals in the field.**  
 - All the scripts are stored inside a directory in  `/usr/share/nmap/scripts/script.db`.
 - It Keeps track of which scripts belong to `vuln`, `safe`, `discovery`, etc.
-- If you download or write a custom NSE script, you must run `nmap --script-updatedb` to refresh this file.  
+- If you download or write a custom NSE script, you must run `nmap --script-updatedb` to refresh this file.
+
+<p align="center">
+  <img src="images/scriptdb.png" alt="Searching Exploit Modules" width="800">
+</p>
 
 
 ## 💠 Here are the most frequently used NSE scripts across major network protocols:  
