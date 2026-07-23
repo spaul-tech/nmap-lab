@@ -30,6 +30,12 @@ nmap -p 21 --script "ftp-*" 192.168.1.105
 ```bash
 nmap -p 22 --script "ssh-*" 192.168.1.110
 ```
+
+### **📷 Below picture shows the directory and `.nse` scripts present**
+<p align="center">
+  <img src="../images/NSE.png" alt="Scripts" width="800">
+</p>
+
 ---
 ### Common scripts used:-  
 -  🟢 `safe`: Minimizes crash risks.  
@@ -48,8 +54,9 @@ nmap -p 22 --script "ssh-*" 192.168.1.110
 - It Keeps track of which scripts belong to `vuln`, `safe`, `discovery`, etc.
 - If you download or write a custom NSE script, you must run `nmap --script-updatedb` to refresh this file.
 
+### **📷 In *script.db* you can see by lua programming language  `vuln`, `safe`, `discovery`, etc are specified.**
 <p align="center">
-  <img src="images/scriptdb.png" alt="Searching Exploit Modules" width="800">
+  <img src="../images/scriptdb.png" alt="Searching Exploit Modules" width="800">
 </p>
 
 
